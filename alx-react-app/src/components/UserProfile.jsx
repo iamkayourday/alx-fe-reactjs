@@ -1,11 +1,11 @@
 const UserProfile = (props) => {
 
     return(
-        <section>
-            <h2>{props.Name}</h2>
-            <p>{props.Age}</p>
-            <p><em>{props.Bio}</em></p>
-        </section>
+        <div>
+            <h2>{props.name}</h2>
+            <p>{props.age}</p>
+            <p>{props.bio}</p>
+        </div>
     )
 }
 export default UserProfile
