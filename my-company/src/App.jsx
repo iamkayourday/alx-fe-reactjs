@@ -5,22 +5,26 @@ import Home from './components/Home'
 import About from './components/About'
 import Services from './components/Services'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <BrowserRouter>
-    <header>
-    <Navbar />
-    </header>
-        <main>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="services" element={<Services />} />
-                <Route path="contact" element={<Contact />} />
-              </Routes>
-          </main>
+    <div className="container">
+      <header>
+      <Navbar />
+      </header>
+          <main className="main-content">
+              <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="about" element={<About />} />
+                  <Route path="services" element={<Services />} />
+                  <Route path="contact" element={<Contact />} />
+                </Routes>
+                <Footer />
+            </main>
+          </div>
     </BrowserRouter>
   )
 }
