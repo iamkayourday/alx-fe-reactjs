@@ -30,12 +30,14 @@ const useRecipeStore = create(set => ({
       recipe.title.toLowerCase().includes(state.searchTerm.toLowerCase())
     )
   })),
+
   // Action to add favourite Recipe
   addFavorite: (recipeId) => set(state => ({ favorites: [...state.favorites, recipeId] })),
   // Action to remove Favourite Recipe
   removeFavorite: (recipeId) => set(state => ({
     favorites: state.favorites.filter(id => id !== recipeId)
   })),
+
 // Action is Optional, Will check this later
   recommendations: [],
   generateRecommendations: () => set(state => {
@@ -45,6 +47,7 @@ const useRecipeStore = create(set => ({
     );
     return { recommendations: recommended };
   }),
+  
   setRecipes: (recipes) => set({ recipes })
 }));
 // console.log(useRecipeStore.getState().recipes);

@@ -14,7 +14,10 @@ const RecipeList = () => {
         <div key={recipe.id}>
           <h3>{recipe.title}</h3>
           <p>{recipe.description}</p>
-          <Link to={`/recipe/${recipe.id}`}>More details on {recipe.title}</Link>        </div>
+          <Link to={`/recipe/${recipe.id}`}>
+            More details on {recipe.title}
+          </Link>        
+        </div>
       ))}
     </div>
   );
