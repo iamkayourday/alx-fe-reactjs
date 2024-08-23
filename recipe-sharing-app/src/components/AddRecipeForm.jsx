@@ -8,10 +8,16 @@ const AddRecipeForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    addRecipe({ id: Date.now(), title, description });
+    // Generate uniqued Ids
+    const generateUniqueId = () => `${Date.now()}-${Math.random()}`;
+    addRecipe({ id: generateUniqueId(), title, description });
     setTitle('');
     setDescription('');
+    setTimeout(() => {
+       alert(`New Recipe Added sucessfullly`)
+    }, 100)
   };
+// // condition for when title and details is empty
 
   return (
     <form onSubmit={handleSubmit}>
