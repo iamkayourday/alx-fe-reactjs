@@ -98,6 +98,7 @@ const useRecipeStore = create((set) => ({
       recipe.title.toLowerCase().includes(state.searchTerm.toLowerCase())
     ),
   })),
+  setRecipes: (recipes) => set({ recipes })
 }));
 
 export { useRecipeStore };
