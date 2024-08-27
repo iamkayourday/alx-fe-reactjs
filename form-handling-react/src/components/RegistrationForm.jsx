@@ -36,6 +36,7 @@ const RegistrationForm = () => {
 
     return (
         <>
+        <h1>Components Form</h1>
         <form onSubmit={handleSubmit}>
 
             <div>
