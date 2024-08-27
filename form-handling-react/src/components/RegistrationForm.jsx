@@ -3,21 +3,24 @@ const RegistrationForm = () => {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
+    const [errors, setErrors] = useState({});
+    
+    const error =  {}
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (username.length < 5) {
-            alert(`Username must be at least 3 characters long.`);
+        if (!username) {
+            errors.username(`Username must be at least 3 characters long.`);
             return;
         }
-        if (password.length < 8) {
-            alert("Password must be at least 8 characters");
+        if (!password) {
+            errors.password("Password must be at least 8 characters");
             return;
           }
-          if (!email.includes('@') || !email.includes('.')) {
-            alert("Invalid email");
+          if (!email) {
+            errors.email("Invalid email");
             return;
-          }        
+          } 
+        setErrors(error)
         resetForm()
         
         console.log('Username:', username);
