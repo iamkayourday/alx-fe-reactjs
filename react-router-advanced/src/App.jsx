@@ -9,7 +9,7 @@ function App() {
           <Route path="/"element={<h1>Home Page</h1>} />
           <Route path="profile/*" element={<Profile />} />
           <Route path='blog' element={<BlogPost />}></Route>
-          <Route path="blog/:id" element={<BlogPost />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
       </Routes>
       <nav>
         <Link to="/blog">Blog</Link>
