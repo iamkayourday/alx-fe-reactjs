@@ -1,14 +1,13 @@
 import React from 'react';
-import Profile from './Profile';
+import {  Navigate } from 'react-router-dom';
+const useAuth = () => {
+  
+  return false; 
+};
 
-const ProtectedRoute = () => {
-  let useauth = { token: false }; 
 
-  return (
-    useauth.token 
-      ? <Profile /> 
-      : <div>Please create a profile</div> 
-  );
+const ProtectedRoute = ({ element }) => {
+  return useAuth() ? element : <Navigate to="/" />;
 };
 
 export default ProtectedRoute;
