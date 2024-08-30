@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Profile from './Profile';
 
-function ProtectedRoute() {
+const ProtectedRoute = () => {
+  let useauth = { token: false }; 
+
   return (
-    <div>ProtectedRoute</div>
-  )
-}
+    useauth.token 
+      ? <Profile /> 
+      : <div>Please create a profile</div> 
+  );
+};
 
-export default ProtectedRoute
+export default ProtectedRoute;

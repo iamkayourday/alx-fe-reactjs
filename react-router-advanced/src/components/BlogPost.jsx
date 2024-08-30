@@ -5,7 +5,7 @@ const BlogPost = () => {
   const { id } = useParams();
   return (
     <>
-      <h2>Blog Post ID: {id}</h2>
+      <h3>Blog Post ID: {id}</h3>
       <nav> 
         <Link to="user/1">User 1</Link>
         <Link to="user/2">User 2</Link>

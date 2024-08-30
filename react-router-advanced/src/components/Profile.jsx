@@ -14,6 +14,7 @@ function Profile() {
           
         </ul>
       </nav>
+      <Outlet />
       
       <Routes>
         <Route path="/details" element={<ProfileDetails />} />
