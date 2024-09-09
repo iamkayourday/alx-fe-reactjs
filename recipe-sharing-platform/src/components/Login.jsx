@@ -78,24 +78,24 @@ const Login = () => {
               Unlock the joy of cooking with step-by-step recipes tailored to your taste. Explore, create, and share your favorite dishes today!
             </p>
 
-          
             <Form>
               <div className="mb-5">
                 <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-2 text-left">
                   Username
                 </label>
                 <Field
-                  className="p-3 w-full border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
+                  className="p-3 w-full bg-gray-100 text-gray-950 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-400 outline-none"
                   type="text"
                   name="username"
                   placeholder="e.g, Johndoe123"
                   autoComplete="given-name"
                 />
+                
                 <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-2 text-left">
                   Password
                 </label>
                 <Field
-                  className="p-3 w-full border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 outline-none"
+                  className="p-3 w-full border bg-gray-100 text-gray-950 border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-400 outline-none"
                   type="password"
                   name="password"
                   placeholder="e.g, Password123"

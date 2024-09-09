@@ -12,10 +12,10 @@ const HomePage = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <div className="flex justify-start mb-6 cursor-pointer lg:justify-center max-lg:font-semibold">
+      <div className="flex justify-start mb-6 cursor-pointer md:justify-center lg:justify-center lg:font-semibold">
         <h3 className='font-bold cursor-pointer text-sm py-2 px-2 bg-slate-400'>RECIPE APP</h3>
       </div>
-      <p className='font-semibold'>Unlock the joy of cooking with step-by-step recipes tailored to your taste. Explore, create, and share your favorite dishes today!</p>
+      <p className='font-semibold text-gray-700'>Unlock the joy of cooking with step-by-step recipes tailored to your taste. Explore, create, and share your favorite dishes today!</p>
       <h1 className="text-3xl font-bold text-center mb-8 text-gray-700" >Our Recipes</h1>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {recipes.map((recipe) => (
