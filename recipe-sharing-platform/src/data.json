@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "title": "Beef Stroganoff",
+      "summary": "A Russian dish of sautéed beef served in a creamy sauce with mushrooms.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 4,
+      "title": "Margherita Pizza",
+      "summary": "A simple pizza with fresh tomatoes, mozzarella cheese, and basil.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "title": "Fish Tacos",
+      "summary": "Crispy fish fillets served with fresh salsa, cabbage slaw, and lime in a tortilla.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 6,
+      "title": "Vegetable Stir Fry",
+      "summary": "A quick and healthy stir fry with a variety of fresh vegetables and a savory sauce.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 7,
+      "title": "Shrimp Scampi",
+      "summary": "A garlic-butter shrimp dish served with pasta.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 8,
+      "title": "Butter Chicken",
+      "summary": "Tender chicken pieces cooked in a creamy, spiced tomato sauce.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 9,
+      "title": "Caprese Salad",
+      "summary": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "title": "Eggplant Parmesan",
+      "summary": "Breaded and fried eggplant slices layered with marinara sauce and cheese.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 11,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  
