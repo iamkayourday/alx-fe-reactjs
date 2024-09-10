@@ -9,7 +9,7 @@ const AddRecipeForm = () => {
   const [title, setTitle] = useState('');
   const [summary, setSummary] = useState('');
   const [ingredients, setIngredients] = useState('');
-  const [instructions, setInstructions] = useState('');
+  const [steps, setSteps] = useState('');
   const [image, setImage] = useState(null);
   const [errors, setErrors] = useState({});
 
@@ -43,7 +43,7 @@ const AddRecipeForm = () => {
       id: Date.now(),
       title,
       summary,
-      ingredients: ingredients.split('\n'),
+      steps: ingredients.split('\n'),
       instructions: instructions.split('\n'),
       image
     };
@@ -53,7 +53,7 @@ const AddRecipeForm = () => {
     setTitle('');
     setSummary('');
     setIngredients('');
-    setInstructions('');
+    setSteps('');
     setImage(null);
     setErrors({});
     toast.success('Recipe added successfully!');
@@ -115,8 +115,8 @@ const AddRecipeForm = () => {
             <label className="block text-lg text-left font-medium text-gray-700" htmlFor="instructions">Instructions (separate each with a new line)</label>
             <textarea
               id="instructions"
-              value={instructions}
-              onChange={(e) => setInstructions(e.target.value)}
+              value={steps}
+              onChange={(e) => setSteps(e.target.value)}
               rows="4"
               className="mt-1 block w-full p-3 text-gray-900 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             ></textarea>
