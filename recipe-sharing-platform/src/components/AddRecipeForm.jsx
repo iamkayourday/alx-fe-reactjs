@@ -25,16 +25,16 @@ const AddRecipeForm = () => {
     e.preventDefault();
 
     // Validations
-    const validationErrors = {};
-    if (!title) validationErrors.title = 'Title is required';
-    if (!summary) validationErrors.summary = 'Summary is required';
+    const validate = {};
+    if (!title) validate.title = 'Title is required';
+    if (!summary) validate.summary = 'Summary is required';
     if (!ingredients || ingredients.split('\n').length < 2) {
-      validationErrors.ingredients = 'Please include at least two ingredients';
+      validate.ingredients = 'Please include at least two ingredients';
     }
-    if (!instructions) validationErrors.instructions = 'Instructions are required';
-    if (!image) validationErrors.image = 'Image is required';
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
+    if (!instructions) validsate.instructions = 'Instructions are required';
+    if (!image) validate.image = 'Image is required';
+    if (Object.keys(validate).length > 0) {
+      setErrors(validate);
       toast.error('Please fill in all required fields.');
       return;
     }
