@@ -7,8 +7,8 @@ const RecipeDetail = () => {
   const [recipe, setRecipe] = useState(null); 
 
   useEffect(() => {
-    const foundRecipe = recipeData.find((r) => r.id === +(id));
-    setRecipe(foundRecipe);
+    const recipeDetails = recipeData.find((recipe) => recipe.id === +(id));
+    setRecipe(recipeDetails);
   }, [id]);
 
   if (!recipe) {
@@ -22,21 +22,40 @@ const RecipeDetail = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
       <div className="flex flex-col items-center md:flex-row md:space-x-8">
-    
+
+        {/* Image */}
         <div className="w-full md:w-1/2">
           <img
             src={recipe.image || "https://via.placeholder.com/150"}
-            alt="recipe"
+            alt={recipe.title}
             className="w-full h-auto rounded-lg object-cover"
           />
         </div>
+
+        {/* Recipe  */}
         <div className="w-full md:w-1/2 mt-6 md:mt-0">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">{recipe.title}</h1>
-          <ol className="list-decimal space-y-4 text-gray-600 text-lg leading-relaxed text-left">
-            {recipe.instructions.map((instruction, index) => (
-              <li key={index}>{instruction}</li>
-            ))}
-          </ol>
+          <p className="text-lg text-gray-600 mb-4">{recipe.summary}</p>
+
+          {/* Ingredients */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-2">Ingredients</h2>
+            <ul className="list-disc list-inside text-gray-600 text-lg leading-relaxed">
+              {recipe.ingredients.map((ingredient, index) => (
+                <li key={index}>{ingredient}</li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Instructions */}
+          <div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-2 ">Instructions</h2>
+            <ol className="list-decimal list-inside space-y-4 text-gray-600 text-lg leading-relaxed">
+              {recipe.instructions.map((instruction, index) => (
+                <li key={index}>{instruction}</li>
+              ))}
+            </ol>
+          </div>
         </div>
       </div>
     </div>
