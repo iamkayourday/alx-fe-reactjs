@@ -5,17 +5,24 @@
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "ingredients": [
       "200g spaghetti",
-      "2 eggs",
+      "2 large eggs",
       "100g grated Parmesan cheese",
-      "100g bacon",
+      "150g bacon",
       "Salt and black pepper to taste"
     ],
-    "step": [
-      "Cook the spaghetti according to the package step.",
+    "steps": [
+      "Cook the spaghetti according to the package instructions.",
       "In a bowl, whisk together eggs and grated cheese.",
       "Cook the bacon in a pan until crispy, then crumble into pieces.",
       "Drain the pasta and mix with the egg mixture and bacon.",
       "Season with salt and pepper to taste and serve."
+    ],
+    "instructions": [
+      "Prepare the spaghetti according to package instructions.",
+      "Whisk eggs and Parmesan cheese in a bowl.",
+      "Cook bacon until crispy and crumble it.",
+      "Mix pasta with egg mixture and bacon.",
+      "Season and serve."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -25,23 +32,32 @@
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
     "ingredients": [
       "500g chicken breast",
-      "200g yogurt",
-      "2 tbsp lemon juice",
-      "1 tbsp garam masala",
-      "1 onion",
-      "3 garlic cloves",
-      "1 tbsp ginger paste",
-      "200ml tomato puree",
-      "100ml cream",
+      "200g plain yogurt",
+      "2 tablespoons garam masala",
+      "1 tablespoon turmeric",
+      "1 tablespoon paprika",
+      "1 tablespoon lemon juice",
+      "2 onions, chopped",
+      "2 garlic cloves, minced",
+      "1 tablespoon ginger, minced",
+      "400g tomatoes, chopped",
+      "200ml cream",
       "Salt to taste"
     ],
-    "step": [
+    "steps": [
       "Marinate the chicken with yogurt, spices, and lemon juice for at least 2 hours.",
       "Grill or bake the chicken until cooked through.",
       "Prepare the masala sauce by cooking onions, garlic, ginger, and tomatoes.",
       "Add cream, spices, and the grilled chicken to the sauce.",
       "Simmer until the sauce thickens and the chicken is well-coated.",
       "Serve with rice or naan bread."
+    ],
+    "instructions": [
+      "Marinate chicken.",
+      "Grill chicken.",
+      "Cook masala sauce.",
+      "Combine chicken with sauce.",
+      "Serve with rice or naan."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -51,21 +67,28 @@
     "summary": "A Russian dish of sautéed beef served in a creamy sauce with mushrooms.",
     "ingredients": [
       "500g beef strips",
-      "200g mushrooms",
-      "1 onion",
-      "2 garlic cloves",
-      "200ml sour cream",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "200g mushrooms, sliced",
       "200ml beef broth",
-      "Butter for cooking",
+      "100g sour cream",
+      "2 tablespoons butter",
       "Salt and pepper to taste"
     ],
-    "step": [
+    "steps": [
       "Sauté onions and garlic in butter until translucent.",
       "Add mushrooms and cook until they are soft.",
       "Brown the beef strips in the pan and then remove them.",
       "Deglaze the pan with beef broth and add sour cream.",
       "Return the beef and mushrooms to the pan and mix well.",
       "Serve over noodles or rice."
+    ],
+    "instructions": [
+      "Sauté onions and garlic.",
+      "Add mushrooms and beef.",
+      "Prepare sauce with broth and sour cream.",
+      "Combine beef and mushrooms with sauce.",
+      "Serve with noodles or rice."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -74,20 +97,26 @@
     "title": "Margherita Pizza",
     "summary": "A simple pizza with fresh tomatoes, mozzarella cheese, and basil.",
     "ingredients": [
-      "Pizza dough",
-      "200g fresh mozzarella",
-      "2 fresh tomatoes",
+      "1 pizza dough",
+      "200g tomato sauce",
+      "200g fresh mozzarella cheese",
       "Fresh basil leaves",
       "Olive oil",
-      "Salt to taste"
+      "Salt and pepper to taste"
     ],
-    "step": [
+    "steps": [
       "Prepare the pizza dough and let it rise.",
       "Spread tomato sauce over the dough.",
       "Add slices of fresh mozzarella and basil leaves.",
       "Drizzle with olive oil.",
       "Bake in a hot oven until the crust is crispy and golden.",
       "Garnish with additional fresh basil."
+    ],
+    "instructions": [
+      "Prepare dough.",
+      "Add tomato sauce.",
+      "Top with cheese and basil.",
+      "Bake and garnish."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -96,22 +125,29 @@
     "title": "Fish Tacos",
     "summary": "Crispy fish fillets served with fresh salsa, cabbage slaw, and lime in a tortilla.",
     "ingredients": [
-      "400g white fish fillets",
-      "Tortillas",
-      "1 cup cabbage, shredded",
-      "2 tomatoes",
-      "1 onion",
-      "Cilantro",
-      "1 lime",
-      "Hot sauce",
-      "Oil for frying"
+      "4 fish fillets",
+      "1 cup flour",
+      "1 cup cornmeal",
+      "1 egg, beaten",
+      "1 cup buttermilk",
+      "Cabbage, shredded",
+      "1 lime, juiced",
+      "Fresh salsa",
+      "Tortillas"
     ],
-    "step": [
+    "steps": [
       "Prepare a batter for the fish and fry until golden brown.",
       "Mix shredded cabbage with lime juice for the slaw.",
       "Prepare a fresh salsa with tomatoes, onions, and cilantro.",
       "Assemble the tacos with fried fish, cabbage slaw, and salsa.",
       "Serve with lime wedges and hot sauce."
+    ],
+    "instructions": [
+      "Prepare and fry fish.",
+      "Make cabbage slaw.",
+      "Prepare salsa.",
+      "Assemble tacos.",
+      "Serve with lime and hot sauce."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -120,21 +156,26 @@
     "title": "Vegetable Stir Fry",
     "summary": "A quick and healthy stir fry with a variety of fresh vegetables and a savory sauce.",
     "ingredients": [
-      "1 bell pepper",
-      "1 carrot",
-      "1 zucchini",
-      "1 cup broccoli florets",
-      "2 garlic cloves",
-      "1 tbsp soy sauce",
-      "1 tsp sesame oil",
-      "Pinch of sugar"
+      "2 cups mixed vegetables (bell peppers, carrots, broccoli)",
+      "2 tablespoons oil",
+      "2 garlic cloves, minced",
+      "1 tablespoon ginger, minced",
+      "2 tablespoons soy sauce",
+      "1 tablespoon sesame oil",
+      "1 teaspoon sugar"
     ],
-    "step": [
+    "steps": [
       "Cut vegetables into bite-sized pieces.",
       "Stir-fry garlic and ginger in hot oil.",
       "Add vegetables and cook until tender-crisp.",
       "Stir in soy sauce, sesame oil, and a pinch of sugar.",
       "Serve with rice or noodles."
+    ],
+    "instructions": [
+      "Cut vegetables.",
+      "Stir-fry garlic and ginger.",
+      "Cook vegetables.",
+      "Add sauce and serve."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -143,22 +184,31 @@
     "title": "Shrimp Scampi",
     "summary": "A garlic-butter shrimp dish served with pasta.",
     "ingredients": [
-      "300g shrimp",
       "200g pasta",
-      "3 garlic cloves",
-      "50g butter",
-      "2 tbsp olive oil",
-      "50ml white wine",
-      "Juice of 1 lemon",
-      "Chopped parsley"
+      "200g shrimp, peeled and deveined",
+      "4 garlic cloves, minced",
+      "3 tablespoons butter",
+      "2 tablespoons olive oil",
+      "1/4 cup white wine",
+      "1 tablespoon lemon juice",
+      "Chopped parsley",
+      "Parmesan cheese (optional)"
     ],
-    "step": [
+    "steps": [
       "Cook pasta until al dente.",
       "Sauté garlic in butter and olive oil.",
       "Add shrimp and cook until pink.",
       "Stir in white wine and lemon juice.",
       "Toss the shrimp with cooked pasta and chopped parsley.",
       "Serve with Parmesan cheese."
+    ],
+    "instructions": [
+      "Cook pasta.",
+      "Sauté garlic.",
+      "Cook shrimp.",
+      "Add wine and lemon juice.",
+      "Combine with pasta and parsley.",
+      "Serve with cheese."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -167,22 +217,32 @@
     "title": "Butter Chicken",
     "summary": "Tender chicken pieces cooked in a creamy, spiced tomato sauce.",
     "ingredients": [
-      "500g chicken",
-      "200g yogurt",
-      "3 garlic cloves",
-      "1 tbsp ginger paste",
-      "200ml tomato puree",
-      "100ml cream",
-      "50g butter",
-      "Spices (garam masala, chili powder, turmeric)"
+      "500g chicken breast",
+      "200g plain yogurt",
+      "2 tablespoons butter",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "1 tablespoon ginger, minced",
+      "400g tomatoes, chopped",
+      "200ml cream",
+      "1 tablespoon garam masala",
+      "1 tablespoon chili powder",
+      "Salt to taste"
     ],
-    "step": [
+    "steps": [
       "Marinate chicken with yogurt and spices.",
       "Fry onions, ginger, and garlic until golden.",
       "Add tomatoes and spices and cook.",
       "Stir in cream and butter, then add marinated chicken.",
       "Simmer until chicken is cooked through.",
       "Serve with rice or naan bread."
+    ],
+    "instructions": [
+      "Marinate chicken.",
+      "Cook onions, ginger, and garlic.",
+      "Add tomatoes and spices.",
+      "Add cream and chicken.",
+      "Simmer and serve."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -191,19 +251,25 @@
     "title": "Caprese Salad",
     "summary": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
     "ingredients": [
-      "2 fresh tomatoes",
-      "200g fresh mozzarella",
+      "4 ripe tomatoes",
+      "200g fresh mozzarella cheese",
       "Fresh basil leaves",
       "Olive oil",
       "Balsamic vinegar",
       "Salt and pepper to taste"
     ],
-    "step": [
+    "steps": [
       "Slice fresh tomatoes and mozzarella cheese.",
       "Arrange slices on a plate, alternating tomato and mozzarella.",
       "Add fresh basil leaves.",
       "Drizzle with olive oil and balsamic vinegar.",
       "Season with salt and pepper to taste."
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella.",
+      "Arrange on a plate.",
+      "Add basil and drizzle.",
+      "Season and serve."
     ],
     "image": "https://via.placeholder.com/150"
   },
@@ -213,18 +279,60 @@
     "summary": "Breaded and fried eggplant slices layered with marinara sauce and cheese.",
     "ingredients": [
       "2 eggplants",
-      "Breadcrumbs",
-      "2 eggs",
-      "Marinara sauce",
-      "200g mozzarella",
-      "Olive oil for frying"
+      "1 cup bread crumbs",
+      "1 cup grated Parmesan cheese",
+      "2 cups marinara sauce",
+      "200g mozzarella cheese",
+      "Salt and pepper to taste",
+      "Oil for frying"
     ],
-    "step": [
+    "steps": [
       "Slice and salt the eggplant to remove excess moisture.",
       "Bread and fry the eggplant slices until golden.",
       "Layer fried eggplant with marinara sauce and mozzarella cheese.",
       "Bake until bubbly and golden.",
       "Serve with pasta or a side salad."
+    ],
+    "instructions": [
+      "Slice and salt eggplant.",
+      "Bread and fry slices.",
+      "Layer with sauce and cheese.",
+      "Bake and serve."
+    ],
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+    "ingredients": [
+      "500g chicken breast",
+      "200g plain yogurt",
+      "2 tablespoons garam masala",
+      "1 tablespoon turmeric",
+      "1 tablespoon paprika",
+      "1 tablespoon lemon juice",
+      "2 onions, chopped",
+      "2 garlic cloves, minced",
+      "1 tablespoon ginger, minced",
+      "400g tomatoes, chopped",
+      "200ml cream",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Marinate the chicken with yogurt, spices, and lemon juice for at least 2 hours.",
+      "Grill or bake the chicken until cooked through.",
+      "Prepare the masala sauce by cooking onions, garlic, ginger, and tomatoes.",
+      "Add cream, spices, and the grilled chicken to the sauce.",
+      "Simmer until the sauce thickens and the chicken is well-coated.",
+      "Serve with rice or naan bread."
+    ],
+    "instructions": [
+      "Marinate chicken.",
+      "Grill chicken.",
+      "Cook masala sauce.",
+      "Combine chicken with sauce.",
+      "Serve with rice or naan."
     ],
     "image": "https://via.placeholder.com/150"
   }
