@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "steps": [
+    "ingredients": [
       "200g spaghetti",
       "2 eggs",
       "100g grated Parmesan cheese",
       "100g bacon",
       "Salt and black pepper to taste"
     ],
-    "instructions": [
-      "Cook the spaghetti according to the package instructions.",
+    "step": [
+      "Cook the spaghetti according to the package step.",
       "In a bowl, whisk together eggs and grated cheese.",
       "Cook the bacon in a pan until crispy, then crumble into pieces.",
       "Drain the pasta and mix with the egg mixture and bacon.",
@@ -23,7 +23,7 @@
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
-    "steps": [
+    "ingredients": [
       "500g chicken breast",
       "200g yogurt",
       "2 tbsp lemon juice",
@@ -35,7 +35,7 @@
       "100ml cream",
       "Salt to taste"
     ],
-    "instructions": [
+    "step": [
       "Marinate the chicken with yogurt, spices, and lemon juice for at least 2 hours.",
       "Grill or bake the chicken until cooked through.",
       "Prepare the masala sauce by cooking onions, garlic, ginger, and tomatoes.",
@@ -49,7 +49,7 @@
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed beef served in a creamy sauce with mushrooms.",
-    "steps": [
+    "ingredients": [
       "500g beef strips",
       "200g mushrooms",
       "1 onion",
@@ -59,7 +59,7 @@
       "Butter for cooking",
       "Salt and pepper to taste"
     ],
-    "instructions": [
+    "step": [
       "Sauté onions and garlic in butter until translucent.",
       "Add mushrooms and cook until they are soft.",
       "Brown the beef strips in the pan and then remove them.",
@@ -73,7 +73,7 @@
     "id": 4,
     "title": "Margherita Pizza",
     "summary": "A simple pizza with fresh tomatoes, mozzarella cheese, and basil.",
-    "steps": [
+    "ingredients": [
       "Pizza dough",
       "200g fresh mozzarella",
       "2 fresh tomatoes",
@@ -81,7 +81,7 @@
       "Olive oil",
       "Salt to taste"
     ],
-    "instructions": [
+    "step": [
       "Prepare the pizza dough and let it rise.",
       "Spread tomato sauce over the dough.",
       "Add slices of fresh mozzarella and basil leaves.",
@@ -95,7 +95,7 @@
     "id": 5,
     "title": "Fish Tacos",
     "summary": "Crispy fish fillets served with fresh salsa, cabbage slaw, and lime in a tortilla.",
-    "steps": [
+    "ingredients": [
       "400g white fish fillets",
       "Tortillas",
       "1 cup cabbage, shredded",
@@ -106,7 +106,7 @@
       "Hot sauce",
       "Oil for frying"
     ],
-    "instructions": [
+    "step": [
       "Prepare a batter for the fish and fry until golden brown.",
       "Mix shredded cabbage with lime juice for the slaw.",
       "Prepare a fresh salsa with tomatoes, onions, and cilantro.",
@@ -119,7 +119,7 @@
     "id": 6,
     "title": "Vegetable Stir Fry",
     "summary": "A quick and healthy stir fry with a variety of fresh vegetables and a savory sauce.",
-    "steps": [
+    "ingredients": [
       "1 bell pepper",
       "1 carrot",
       "1 zucchini",
@@ -129,7 +129,7 @@
       "1 tsp sesame oil",
       "Pinch of sugar"
     ],
-    "instructions": [
+    "step": [
       "Cut vegetables into bite-sized pieces.",
       "Stir-fry garlic and ginger in hot oil.",
       "Add vegetables and cook until tender-crisp.",
@@ -142,7 +142,7 @@
     "id": 7,
     "title": "Shrimp Scampi",
     "summary": "A garlic-butter shrimp dish served with pasta.",
-    "steps": [
+    "ingredients": [
       "300g shrimp",
       "200g pasta",
       "3 garlic cloves",
@@ -152,7 +152,7 @@
       "Juice of 1 lemon",
       "Chopped parsley"
     ],
-    "instructions": [
+    "step": [
       "Cook pasta until al dente.",
       "Sauté garlic in butter and olive oil.",
       "Add shrimp and cook until pink.",
@@ -166,7 +166,7 @@
     "id": 8,
     "title": "Butter Chicken",
     "summary": "Tender chicken pieces cooked in a creamy, spiced tomato sauce.",
-    "steps": [
+    "ingredients": [
       "500g chicken",
       "200g yogurt",
       "3 garlic cloves",
@@ -176,7 +176,7 @@
       "50g butter",
       "Spices (garam masala, chili powder, turmeric)"
     ],
-    "instructions": [
+    "step": [
       "Marinate chicken with yogurt and spices.",
       "Fry onions, ginger, and garlic until golden.",
       "Add tomatoes and spices and cook.",
@@ -190,7 +190,7 @@
     "id": 9,
     "title": "Caprese Salad",
     "summary": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil.",
-    "steps": [
+    "ingredients": [
       "2 fresh tomatoes",
       "200g fresh mozzarella",
       "Fresh basil leaves",
@@ -198,7 +198,7 @@
       "Balsamic vinegar",
       "Salt and pepper to taste"
     ],
-    "instructions": [
+    "step": [
       "Slice fresh tomatoes and mozzarella cheese.",
       "Arrange slices on a plate, alternating tomato and mozzarella.",
       "Add fresh basil leaves.",
@@ -211,7 +211,7 @@
     "id": 10,
     "title": "Eggplant Parmesan",
     "summary": "Breaded and fried eggplant slices layered with marinara sauce and cheese.",
-    "steps": [
+    "ingredients": [
       "2 eggplants",
       "Breadcrumbs",
       "2 eggs",
@@ -219,7 +219,7 @@
       "200g mozzarella",
       "Olive oil for frying"
     ],
-    "instructions": [
+    "step": [
       "Slice and salt the eggplant to remove excess moisture.",
       "Bread and fry the eggplant slices until golden.",
       "Layer fried eggplant with marinara sauce and mozzarella cheese.",
