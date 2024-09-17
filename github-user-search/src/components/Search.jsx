@@ -3,7 +3,9 @@ import { fetchUserData } from '../services/githubService';
 
 const Search = () => {
   const [username, setUsername] = useState('');
-  const [userData, setUserData] = useState(null);
+  const [location, setLocation] = useState('');
+  const [repos, setRepos] = useState('');
+  const [userData, setUserData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
@@ -12,15 +14,17 @@ const Search = () => {
     setLoading(true);
     setError(false);
     try {
-      const data = await fetchUserData(username);
-      setUserData(data);
-      setUsername(''); 
+      const data = await fetchUserData(username, location, repos);
+      setUserData(data.items || []);  
+      setUsername('');  
+      setLocation('');
+      setRepos('')
     } catch (err) {
       setError(true);
-      setUserData(null);
+      setUserData([]);
     } finally {
-        setLoading(false);
-      }
+      setLoading(false);
+    }
   };
 
   return (
@@ -31,20 +35,51 @@ const Search = () => {
           placeholder="Search GitHub username..."
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-        /> <br /><br />
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          placeholder="Location (optional)"
+          value={location}
+          onChange={(e) => setLocation(e.target.value)}
+        />
+        <input
+          type="number"
+          placeholder="Minimum Repositories (optional)"
+          value={repos}
+          onChange={(e) => setRepos(e.target.value)}
+        />
+        <br />
+        <br />
         <button type="submit">Search</button>
       </form>
 
       {loading && <p>Loading...</p>}
-      {error && <p>Looks like we cant find the user.</p>}
+      {error && <p>Looks like we can't find the user.</p>}
 
-      {userData && (
+      {userData.length > 0 && (
         <div>
-          <img src={userData.avatar_url} alt={`${userData.login}'s avatar`} width={100} />
-          <h3>{userData.login}</h3>
-          <a href={userData.html_url} target="_blank" rel="noopener noreferrer">
-            Visit Profile
-          </a>
+          {userData.map((user) => {
+            // console.log(user); 
+            console.log(user.public_repos)
+
+            return (
+              <div key={user.id}>
+                <img src={user.avatar_url} alt={user.login} width={100} />
+                <h3>{user.login}</h3>
+                <p>{user.location || 'No location specified'}</p>
+                <p>Repositories: {user.public_repos}</p>
+                <a
+                  href={user.html_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Profile
+                </a>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
