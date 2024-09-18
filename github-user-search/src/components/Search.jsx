@@ -15,6 +15,7 @@ const Search = () => {
     setError(false);
     try {
       const data = await fetchUserData(username, location, minRepos);
+      console.log('API Response:', data);
       setUserData(data.items || []);
       setUsername('');
       setLocation('');
