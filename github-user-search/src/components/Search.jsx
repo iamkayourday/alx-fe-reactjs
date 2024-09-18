@@ -4,7 +4,7 @@ import { fetchUserData } from '../services/githubService';
 const Search = () => {
   const [username, setUsername] = useState('');
   const [location, setLocation] = useState('');
-  const [repos, setRepos] = useState('');
+  const [minRepos, setMinRepos] = useState('');
   const [userData, setUserData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -14,11 +14,11 @@ const Search = () => {
     setLoading(true);
     setError(false);
     try {
-      const data = await fetchUserData(username, location, repos);
+      const data = await fetchUserData(username, location, minRepos);
       setUserData(data.items || []);
       setUsername('');
       setLocation('');
-      setRepos('');
+      setMinRepos('');
     } catch (err) {
       setError(true);
       setUserData([]);
@@ -49,8 +49,8 @@ const Search = () => {
         <input
           type="number"
           placeholder="Minimum Repositories (optional)"
-          value={repos}
-          onChange={(e) => setRepos(e.target.value)}
+          value={minRepos}
+          onChange={(e) => setMinRepos(e.target.value)}
           className="block w-full p-2 mb-4 border border-[#495057] bg-[#212529] text-[#f8f9fa] rounded"
         />
 
@@ -81,7 +81,7 @@ const Search = () => {
                 href={user.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center mt-2 text-gray-100 bg-gray-500 p-4"
+                className="block text-center mt-2 text-gray-100 bg-gray-500 p-4 rounded"
               >
                 View Profile
               </a>
